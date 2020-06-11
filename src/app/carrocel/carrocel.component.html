@@ -1,0 +1,50 @@
+<div class="container bg-light">
+ <div id="carrocel" class="carousel slide carousel-fade" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carrocel" *ngFor="let image of imagens, let i=index" data-slide-to="i" [ngClass]="{'active':i===0}"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div *ngFor="let imagem of imagens, let i=index" [ngClass]="{'carousel-item':true,'active':i===0}">
+        <a href="{{imagem.link}}">
+          <img class="d-block w-100" src="{{imagem.nome}}" alt="{{imagem.descricao}}">
+        </a>
+      </div>
+      <a class="carousel-control-prev" href="#carrocel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Anterior</span>
+      </a>
+      <a class="carousel-control-next" href="#carrocel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Próximo</span>
+      </a>
+    </div>
+ </div>
+ <div class="row">
+    <div class="col">
+      <h5><a href="empresa.asp">A empresa</a></h5>
+      <span class="noborder"><a href="empresa.asp"><img src="assets/image/aempresa.png" alt="Empresa" width="32"
+            height="24" class="alignright" /></a></span>
+      <p>Cert&atilde;o Industrial agr&iacute;cola atua no mercado nacional na fabrica&ccedil;&atilde;o de asssentos e
+        escapamentos.</p>
+    </div>
+    <div class="col">
+      <h5><a href="http://certao.com.br/Catalogo_de_Produtos_CERTAO.pdf">Downlaod</a></h5>
+      <span class="noborder"><a href="http://certao.com.br/Catalogo_de_Produtos_CERTAO.pdf"><img
+            src="assets/image/downlaod_catalago.png" alt="catalogo" width="32" height="24"
+            class="alignright" /></a></span>
+      <p>Faça o Downlaod de nosso catálogo de produtos. (PDF)</p>
+    </div>
+    <div class="col">
+      <h5><a href="produtos.asp?ID=1">Produtos</a></h5>
+      <span class="noborder"><a href="produtos.asp?ID=1"><img src="assets/image/catalogo.png" alt="produtos" width="32"
+            height="24" class="alignright" /></a></span>
+      <p>Navegue pelos nossos produtos oferecidos.</p>
+    </div>
+    <div class="col">
+      <h5><a href="contato.asp">Contato</a></h5>
+      <span class="noborder"><a href="contato.asp"><img src="assets/image/email.png" alt="contato" width="32"
+            height="24" class="alignright" /></a></span>
+      <p>Dúvidas e informações entre em contato com nossa equipe. </p>
+    </div>
+  </div>
+</div>

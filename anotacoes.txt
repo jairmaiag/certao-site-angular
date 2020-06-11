@@ -1,0 +1,39 @@
+Anotações sobre o projeto:
+ng new certao
+C:\Users\55479\projetos\certao
+ng serve
+http://localhost:4200/
+
+http://localhost:8000/rest/usuario/login
+
+Angular 2
+Para que os scripts do bootstrap funcionem as dependências devem está como abaixo.
+jQuery v3.2.1
+popper v1.16.0
+Bootstrap v4.4.1
+
+comando para instalação:
+npm install bootstrap@4.4.1 --save
+npm install jquery@3.2.1 --save
+npm install popper.js@1.16.0 --save
+
+para gerar o build de desenvolvimento:
+ng build
+para gerar o build de produção.
+ng build --prod
+
+npm uninstall jquery
+
+Adicionando no angular.json
+"styles": [
+	"node_modules/bootstrap/dist/css/bootstrap.css",
+	"src/styles.css"
+],
+"scripts": [
+	"node_modules/jquery/dist/jquery.js",
+	"node_modules/popper.js/dist/umd/popper.js",
+	"node_modules/bootstrap/dist/js/bootstrap.js"
+]
+
+Servido http:
+npm install -g json-server

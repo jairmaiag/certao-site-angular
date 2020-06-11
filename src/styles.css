@@ -1,0 +1,75 @@
+.navbar{
+	padding:0;
+}
+.navbar-toggler{
+	padding:10px;
+}
+.page-title h2 {
+    font-family: 'Droid Serif', serif;
+    font-weight: normal;
+	font-style: italic;
+	color: #888888;
+	font-size: 28px;
+	line-height: 22px;
+	padding: 34px 0 30px 0;
+}
+.page-title h2 span{
+	font-size: 14px;
+	padding-left: 7px;
+}
+.conteudo{
+	background: #fff;
+	padding: 30px 0 40px 0;
+}
+.conteudo p{
+	font-family: "Helvetica Neue", Arial, Sans-Serif;
+	color: #888888;
+	font-size: 13px;
+	line-height: 22px;
+}
+.conteudo h3{
+	text-transform: uppercase;
+	font-size: 11px;
+}
+/*
+=============================================== 04. FOOTER ===============================================
+*/
+footer { border-top-style:solid; border-width:1px; border-color:#d1d0d0; padding:30px 0px 12px 0px;}
+footer .searchform {padding-bottom:0px;  }
+footer #s:focus {width: 180px;}
+footer hr { margin:20px 0 22px 0; }
+
+/* -------------------- A. FOOTER NAVIGATION -------------------- */
+ul#footer-navigation {float:left; list-style:none; margin:6px 0px 0px 0px; padding:0px;}
+ul#footer-navigation li {display:line-block; float:left; margin-right:45px; padding:0px;}
+
+/* -------------------- B. SOCIAL NETWORKING ICONS -------------------- */
+#footer-base-right {float:right; margin:0px; padding:0px; width:48%; text-align:right;}
+.social-networking-icons {display:inline;  margin:0 auto; }
+.social-networking-icons a {
+	margin-left:2px; 
+	padding:0px; 
+	width:24px; 
+	height:24px;  
+	display:inline-block; 
+	text-indent:-9999px; 
+	text-align:left; 
+	background:url(/assets/image/icons.png);}
+.ie7 .social-networking-icons a {display:inline;}
+a.email:hover {background-position:0px 24px;}
+a.facebook {background-position:-99px 0px;}
+a.facebook:hover {background-position:-99px 24px;}
+a.twitter {background-position:-75px 0px;}
+a.twitter:hover {background-position:-75px 24px;}
+a.dribbble {background-position:-124px 0px;}
+a.dribbble:hover {background-position:-124px 24px;}
+a.forrst {background-position:-149px 0px;}
+a.forrst:hover {background-position:-149px 24px;}
+a.vimeo {background-position:-50px 0px;}
+a.vimeo:hover {background-position:-50px 24px;}
+a.youtube {background-position:-25px 0px;}
+a.youtube:hover {background-position:-25px 24px;}
+a.linkedin {background-position:-174px 0px;}
+a.linkedin:hover {background-position:-174px 24px;}
+a.tumblr {background-position:-199px 0px;}
+a.tumblr:hover {background-position:-199px 24px;}
